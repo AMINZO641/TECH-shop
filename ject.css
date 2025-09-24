@@ -242,3 +242,26 @@ form button:hover {
 h1,h2,h3,h4, p{
   cursor: default;
 }
+@media (max-width: 768px) {
+  nav {
+    flex-direction: row;   /* stack nav links */
+    text-align: center;
+  }
+  body {
+    font-size: 16px; /* slightly bigger text for readability */
+  }
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+/* For very small phones */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+  nav  {
+    margin: 10px 0;
+  }
+}
