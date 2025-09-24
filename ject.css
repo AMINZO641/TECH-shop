@@ -1,4 +1,4 @@
- @media (max-width: 768px) {
+
 * {
   margin: 0;
   padding: 0;
@@ -59,12 +59,12 @@
   background-color:royalblue;
   text-align: center;
 }
+
 footer {
   background-color:cornflowerblue;
   color: white;
   text-align: center;
   padding: 15px;
-
 }
 
 
@@ -242,5 +242,39 @@ form button:hover {
 h1,h2,h3,h4, p{
   cursor: default;
 }
- }
  
+ 
+ @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .one {
+    flex-direction: column; /* stack links vertically */
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .logo {
+    margin-bottom: 15px;
+  }
+  footer {
+  background-color:cornflowerblue;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .two {
+    font-size: 14px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+}
