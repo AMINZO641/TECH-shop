@@ -5,7 +5,7 @@ A simple responsive website built with **HTML** and **CSS** to showcase an onlin
 This project is for learning front-end development basics and practicing GitHub Pages hosting.  
 
 #  Live Demo
- [View Project Here](https://aminzo641.github.io/Tech-shop/)
+ [View Project Here](https://aminzo641.github.io/TECH-shop/)
 
 # Features
 - Clean and simple design
