@@ -245,9 +245,7 @@ h1,h2,h3,h4, p{
  
  
  @media (max-width: 768px) {
-   body {
-    padding-top: 120px; 
-  }
+  
  .navbar {
     background-color:cornflowerblue;
     display: flex;
