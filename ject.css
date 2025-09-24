@@ -245,36 +245,64 @@ h1,h2,h3,h4, p{
  
  
  @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
+ .navbar {
+    background-color:cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    
+}
+.logo{
+    height: 9vh;
+}
+.two {
+   display: flex;
+    border-radius: 16px;  
+    text-decoration: none;
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
     text-align: center;
-    padding: 20px;
-  }
+    font-size: large;
+    padding: 10px;
+    color: azure;
+    cursor: pointer;
+}
+.two:hover{
+    background-color: royalblue;
+    text-decoration: none;
+   
+    
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.three {
+  background-color: blue;
+  color: white;
+  padding: 10px ;
+  border: 1px solid blue;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: large;
+}
+.three:hover {
+  background-color:royalblue;
+  text-align: center;
+}
 
-  .one {
-    flex-direction: column; /* stack links vertically */
-    gap: 10px;
-    margin: 10px 0;
-  }
-
-  .logo {
-    margin-bottom: 15px;
-  }
-  footer {
+footer {
   background-color:cornflowerblue;
   color: white;
   text-align: center;
   padding: 15px;
 }
+
 }
 
-/* Small phones */
-@media (max-width: 480px) {
-  .two {
-    font-size: 14px;
-  }
 
-  .logo {
-    height: 40px;
-  }
-}
